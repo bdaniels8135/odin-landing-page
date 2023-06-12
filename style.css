@@ -20,7 +20,7 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 32px;
     background-color: #1f2937;
 }
 
@@ -41,10 +41,13 @@ nav .logo {
     padding: 32px;
     background-color: #1f2937;
     justify-content: center;
+    flex: 3;
+    align-items: center;
 }
 
 .header > * {
     flex: 0 1 450px;
+    min-height: 225px;
 }
 
 .header .box {
@@ -75,6 +78,14 @@ button {
     color: #f9faf8;
     padding: 8px 40px;
     border-radius: 4px;
+}
+
+.info {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info > .text {
@@ -119,6 +130,7 @@ button {
     align-items: center;
     justify-content: center;
     padding: 32px;
+    flex: 3;
 }
 
 .quote .text{
@@ -136,3 +148,23 @@ button {
     font-weight: 900;
 }
 
+.hook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    flex: 2;
+}
+
+.hook-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}

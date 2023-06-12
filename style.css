@@ -20,7 +20,7 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 16px 15%;
+    padding: 16px;
     background-color: #1f2937;
 }
 
@@ -38,12 +38,13 @@ nav .logo {
 
 .header {
     display: flex;
-    padding: 32px 15%;
+    padding: 32px;
     background-color: #1f2937;
+    justify-content: center;
 }
 
 .header > * {
-    flex: 1;
+    flex: 0 1 450px;
 }
 
 .header .box {
